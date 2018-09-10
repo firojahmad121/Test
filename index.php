@@ -1,3 +1,6 @@
 <?php
-    echo "Hello world first git repository";
+    function abc(){
+        return "Welcome to my git repository";
+    }
+    abc();
  ?>
