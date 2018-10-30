@@ -1,0 +1,14 @@
+{
+    "name":"firoj/eshop",
+    "description":"test for eshop",
+    "type":"project",
+    "require":{
+        "firoj/test1":"dev-master"
+    },
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"https://github.com/firojahmad121/test1"
+        }
+    ]
+}
