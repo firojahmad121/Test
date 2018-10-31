@@ -14,12 +14,27 @@
         "symfony/monolog-bundle": "^3.1.0",
         "symfony/yaml": "^3.4",
         "symfony/serializer": "^3.4",
-        "firoj/test1":"dev-master"
+        "firoj/test":"dev-master"
+    },
+    "require-dev": {
+        "symfony/dotenv": "^3.4",
+        "symfony/var-dumper": "^3.4",
+        "symfony/web-server-bundle": "^3.4"
     },
     "repositories":[
         {
             "type":"vcs",
             "url":"https://github.com/firojahmad121/test1"
         }
-    ]
+    ],
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\":"src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
