@@ -3,6 +3,17 @@
     "description":"test for eshop",
     "type":"project",
     "require":{
+        "php": "^7.0",
+        "doctrine/orm": "^2.5.11",
+        "doctrine/doctrine-bundle": "^1.6.10",
+        "doctrine/doctrine-migrations-bundle": "^1.3",
+        "symfony/console": "^3.4",
+        "symfony/expression-language": "^3.4",
+        "symfony/flex": "^1.0",
+        "symfony/framework-bundle": "^3.4",
+        "symfony/monolog-bundle": "^3.1.0",
+        "symfony/yaml": "^3.4",
+        "symfony/serializer": "^3.4",
         "firoj/test1":"dev-master"
     },
     "repositories":[
